@@ -1,0 +1,14 @@
+:root {
+  --color-accent: #f80;
+}
+
+.App-header {
+  background-color: var(--color-accent);
+  max-height: 10vh;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

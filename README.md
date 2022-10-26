@@ -1,8 +1,37 @@
+Dear Reviewer, please read these notes on the solution
+---------------------
+To run e2e test go to package.json and run 
+1) start
+2) testcafe (it will open chrome on you station)
+
+I decided to go with testcafe for e2e since I worked with it not long ago.
+
+#### On tests
+I didn't do unit tests. I don't see any value in our case. 
+Unit tests make sense when you have logic heavy components 
+(e.g. medical/financial forms). 
+Unit tests in our case will be more a burden and not help. 
+e2e tests bring real value here. 
+In my opinion they are absolute must have 
+if you want to have a stable maintainable solution 
+and not a pile of mess that devs are afraid to touch.
+
+#### Visual design notes
+1) In my opinion the current design abuses the orange color - reading orange
+text makes my eyes hurt. I tried to address that 
+but at the same time to convey that orange theme.
+2) The design is basically adaptive to screen width 
+but by no means this is a prod ready level.
+3) I started with inline-block and decided to stay with it 
+but flex is a more popular option nowadays (and more functional).
+
+
+
 Front-end Software Engineer Development Test
 --------------------------------------------
 
 The goal of this test is to assert your coding and architectural skills. 
-You are given a simple problem so you can focus on showcasing development techniques.
+You are given a simple problem, so you can focus on showcasing development techniques.
 
 This test should be written in React and should consume the json that we are sending with it
 
