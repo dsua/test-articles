@@ -1,0 +1,36 @@
+.BundleItem {
+    margin-bottom: 2rem;
+}
+
+.BundleItem-a {
+    text-decoration: none;
+    color: black;
+}
+
+.BundleItem-a:hover {
+    text-decoration: underline;
+}
+
+.BundleItem-img {
+    margin-bottom: 1rem;
+}
+
+.BundleItem-textBox {
+    margin-left: 1rem;
+    margin-top: 0;
+    display: inline-block;
+    max-width: 400px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.BundleItem-title {
+    margin-top: 0;
+    border-top: var(--color-accent) .5rem solid;
+    padding-top: 1rem;
+}
+
+.BundleItem-createdDate {
+    font-weight: bold;
+    margin-top: 1rem;
+}

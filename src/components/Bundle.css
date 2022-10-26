@@ -1,0 +1,17 @@
+.Bundle {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.Bundle-image {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Bundle-label {
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--color-accent);
+}
